@@ -1,0 +1,38 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid;
+    width: 100px;
+    text-align: center;
+}
+
+.table{
+    margin: auto;
+    width: 50%;
+
+}
+
+.moyen{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.moyen input{
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.note{
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
